@@ -1,0 +1,79 @@
+.custom-modal {
+  background-color: #343a40; /* Black background */
+  border: 2px solid #ff0000; /* Red border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the modal */
+  max-width: 600px; /* Maximum width of the modal */
+  margin: 0 auto; /* Centering the modal */
+}
+
+.custom-modal .modal-content {
+  color: #ffffff; /* White text color */
+}
+
+.custom-modal .form-group {
+  margin-bottom: 15px; /* Spacing between form groups */
+}
+
+.custom-modal .form-control {
+  border-radius: 4px; /* Rounded corners for input fields */
+  border: 1px solid #ced4da; /* Light grey border */
+  background-color: #333333; /* Dark background for input fields */
+  color: #ffffff; /* White text color for input fields */
+  width: calc(100% - 22px); /* Adjusting input width */
+}
+
+.custom-modal .btn-primary,
+.custom-modal .close,
+.custom-modal .switch-button {
+  background-color: #343a40; /* Matching background color */
+  color: #ffffff; /* White text color */
+}
+
+.custom-modal .btn-primary {
+  border-color: #ff0000; /* Red border color */
+}
+
+.custom-modal .btn-primary:hover,
+.custom-modal .close:hover,
+.custom-modal .switch-button:hover {
+  background-color: #454d54; /* Darker background color on hover */
+}
+
+.custom-modal .btn-primary:focus,
+.custom-modal .close:focus,
+.custom-modal .switch-button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.5); /* Red shadow on focus */
+}
+.btn-primary {
+  background-color: #343a40; /* Black background */
+  border: 2px solid #ff0000; /* Red border */
+  color: #ffffff; /* White text color */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+}
+
+.btn-primary:hover {
+  background-color: #454d54; /* Darker background color on hover */
+  border-color: #454d54; /* Darker border color on hover */
+}
+.btn-secondary {
+  background-color: #343a40; /* Black background */
+  border: 2px solid #ff0000; /* Red border */
+  color: #ffffff; /* White text color */
+  border-radius: 4px; /* Rounded corners */
+  padding: 5px 10px; /* Padding */
+  margin-right: 330px;
+}
+
+.btn-secondary:hover {
+  background-color: #454d54; /* Darker background color on hover */
+  border-color: #454d54; /* Darker border color on hover */
+}
+.btn-danger {
+  background-color: #343a40; /* Black background */
+  border: 2px solid #ff0000; /* Red border */
+  color: #ffffff; /* White text color */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+}

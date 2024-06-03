@@ -1,0 +1,60 @@
+/* MainPage.css */
+
+.main-page {
+  text-align: center; /* Center align content */
+}
+
+.main-page h1 {
+  margin-bottom: 20px; /* Add spacing below heading */
+}
+
+.main-page p {
+  margin-bottom: 40px; /* Add spacing below paragraph */
+}
+
+.main-page img {
+  display: block; /* Ensure image is block-level */
+  margin: 0 auto; /* Center align image */
+  max-width: 100%; /* Ensure image fits container width */
+  height: auto; /* Maintain aspect ratio */
+}
+.CustomImage {
+  width: 200px; /* Set width to 200 pixels */
+  height: 150px; /* Set height to 150 pixels */
+}
+.background-image {
+  /* Set the background image */
+  background-image: url('https://ak4.picdn.net/shutterstock/videos/21857164/thumb/1.jpg?i10c=img.resize(height:160)');
+  
+  /* Set background size to cover the entire container */
+  background-size: cover;
+  
+  /* Set background position to center */
+  background-position: center;
+  
+  /* Set background repeat to no repeat */
+  background-repeat: no-repeat;
+  
+  /* Set the height of the container */
+  height: 100vh; /* Adjust as needed */
+}
+html {
+  /* Set the background image */
+  background-image: url('https://ak4.picdn.net/shutterstock/videos/21857164/thumb/1.jpg?i10c=img.resize(height:160)');
+  
+  /* Set background size to cover the entire viewport */
+  background-size: cover;
+  
+  /* Set background position to center */
+  background-position: center;
+  
+  /* Set background repeat to no repeat */
+  background-repeat: no-repeat;
+  
+  /* Set the height of the HTML element to fill the viewport */
+  height: 150vh;
+}
+
+.main-content {
+  color: #ffffff; /* White text color */
+}

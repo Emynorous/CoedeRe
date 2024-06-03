@@ -1,0 +1,97 @@
+.custom-navbar {
+  background-color: #333333; /* Dark background color */
+  border-bottom: 3px solid #ff0000; /* Tomato color border */
+  padding: 0.75rem 1rem;
+}
+
+.custom-toggler {
+  border-color: #ff0000; /* Tomato color border for toggler */
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 99, 71, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffffff; /* White text color */
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ff0000; /* Tomato color on hover */
+  background-color: #333333; /* Darker background on hover */
+  border-radius: 4px;
+}
+
+.navbar-text {
+  color: #ffffff; /* White text color for the login component */
+}
+
+@media (max-width: 992px) {
+  .custom-navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    padding: 0.25rem 1rem;
+  }
+}
+
+.custom-navbar {
+  background-color: #343a40; /* Black background */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #ffffff; /* White text color */
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-color: #ffffff; /* White color for the hamburger icon */
+}
+
+.custom-navbar .navbar-toggler {
+  border-color: #ffffff; /* White color for the hamburger icon border */
+}
+
+.custom-navbar .navbar-toggler:focus,
+.custom-navbar .navbar-toggler:hover {
+  background-color: #454d54; /* Darker background color on hover */
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url('path/to/font.woff2') format('woff2'),
+       url('path/to/font.woff') format('woff');
+  /* Add additional font formats as needed */
+}
+
+.custom-title {
+  font-family: 'CustomFont', sans-serif; /* Apply custom font */
+  color: #ff0000; /* White text color for 'Code' */
+  font-weight: bold;
+  font-size: 50px
+  
+}
+
+.custom-red {
+  color: #ffffff; /* Red text color for 'Red' */
+}
+
+
+.button-icon {
+  width: 15px; /* Set the width of the icon */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+  margin-right: 8px; /* Add spacing between the icon and text */
+  margin-bottom: 5px;
+}
+.nav-link {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+}
+
+.button-icon {
+  margin-right: 8px; /* Adjust the spacing as needed */
+  height: 24px; /* Set the height of the icon */
+  width: auto; /* Let the width adjust automatically */
+}

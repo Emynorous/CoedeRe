@@ -1,0 +1,49 @@
+/* Report.css */
+
+.report-box {
+  background-color: #343a40; /* Black background */
+  border: 2px solid #ff0000; /* Red border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  max-width: 600px; /* Maximum width of the box */
+  margin: 0 auto; /* Centering the box */
+  box-shadow: 0 4px 8px #343a40; /* Slight shadow for depth */
+  color: #ffffff; /* White text color */
+}
+
+.report-box h2 {
+  text-align: center; /* Centering the heading */
+  margin-bottom: 20px; /* Spacing below the heading */
+}
+.report-box .form-group {
+  margin-bottom: 15px; /* Spacing between form groups */
+}
+.report-box .form-control {
+  border-radius: 4px; /* Rounded corners for input fields */
+  border: 1px solid #ced4da; /* Light grey border */
+  background-color: #333333; /* Dark background for input fields */
+  color: #ffffff; /* White text color for input fields */
+}
+.report-box .btn-primary {
+  background-color: #333333; /* Primary button color */
+  border-color: #ff0000; /* Primary button border color */
+  width: 100%; /* Full width button */
+  padding: 10px; /* Padding for the button */
+  border-radius: 4px; /* Rounded corners for the button */
+}
+.report-box .btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3; /* Darker blue border on hover */
+}
+.report-box label {
+  width: 150px; /* Adjust as needed */
+  display: inline-block;
+}
+
+.report-box input[type="text"],
+.report-box input[type="datetime-local"],
+.report-box textarea {
+  width: calc(100% - 170px); /* Adjust as needed */
+  display: inline-block;
+  vertical-align: top;
+}

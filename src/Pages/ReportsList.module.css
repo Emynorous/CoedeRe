@@ -1,0 +1,16 @@
+.container {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+label {
+  color: red;
+}
+
+input {
+  background-color: black;
+  color: white;
+  border-color: red;
+}
